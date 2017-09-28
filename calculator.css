@@ -1,0 +1,64 @@
+﻿.calculator {
+    color:black;
+    background:darkgray;
+    overflow:hidden;
+    
+}
+.calculator > div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: gray 1px solid;
+    border-radius: 4px;
+    box-shadow: white 1px 1px inset, white -1px -1px inset;
+    padding:0;
+    margin:1% 2% 1% 2%;
+}
+.calculator .result {
+    background:linear-gradient(lightgray, white);
+    width:96%;
+    height:26%;
+    position:relative;
+    padding-right:2px;
+}
+.calculator .result div {
+    overflow:hidden;
+    text-align:right;
+}
+.calculator .result div:first-child {
+    height:40%;
+}
+.calculator .result div:nth-child(2) {
+    height:60%;
+}
+.calculator .button {
+    float:left;
+    text-align:center;
+    width:16%;
+    height:10%;
+    cursor:pointer;
+}
+.calculator .button:hover {
+    background: linear-gradient(white, gold);
+}
+.calculator .func {
+    background: linear-gradient(white, darkgray);
+}
+.calculator .num {
+    background: linear-gradient(white, lightgray);
+}
+.calculator .equal {
+    height:22%;
+    float:right;
+}
+.calculator .zero {
+    width:36%;
+}
+.calculator .big {
+    font-weight:bold;
+}
+.calculator .mem-indicator {
+    position:absolute;
+    bottom: 0;
+    left: 3px;
+}
